@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-small.jpeg') no-repeat center center fixed;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.github-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.github-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#githubButton {
+    padding: 15px 30px;
+    font-size: 1em;
+    background: linear-gradient(135deg, rgb(0, 0, 0), #808080);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#githubButton:hover {
+    background: linear-gradient(135deg, #ffba08, #f06);
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
