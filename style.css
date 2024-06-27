@@ -76,6 +76,24 @@ nav a:hover {
     background: linear-gradient(135deg, #ffba08, #f06);
 }
 
+.book-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    width: 80%;
+}
+
+.book-section h2, .book-section h3 {
+    color: #333;
+}
+
+.book-section p, .book-section ul {
+    color: #555;
+}
+
 footer {
     color: #fff;
     text-align: center;
