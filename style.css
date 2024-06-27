@@ -34,12 +34,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: rgba(85, 85, 85, 0.8);
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 
@@ -51,7 +52,7 @@ nav a:hover {
 .github-section {
     margin-top: 50px;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -64,7 +65,8 @@ nav a:hover {
 #githubButton {
     padding: 15px 30px;
     font-size: 1em;
-    background: linear-gradient(135deg, rgb(0, 0, 0), #808080);
+    /*background: linear-gradient(135deg, rgb(0, 0, 0), #808080);*/
+    background: linear-gradient(135deg, #f06, #ffba08);
     color: #fff;
     border: none;
     border-radius: 5px;
