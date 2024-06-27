@@ -65,8 +65,7 @@ nav a:hover {
 #githubButton {
     padding: 15px 30px;
     font-size: 1em;
-    /*background: linear-gradient(135deg, rgb(0, 0, 0), #808080);*/
-    background: linear-gradient(135deg, #f06, #ffba08);
+    background: linear-gradient(135deg, rgb(0, 0, 0), #808080);
     color: #fff;
     border: none;
     border-radius: 5px;
