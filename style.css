@@ -58,13 +58,13 @@ nav a:hover {
 }
 
 .main-content {
-    padding: 20px;
+    /*padding: 20px;*/
     text-align: center;
 }
 
 .github-section {
     margin-top: 50px;
-    padding: 30px;
+    padding: 17px;
     /*background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;*/
@@ -97,7 +97,7 @@ nav a:hover {
 
 .book-section {
     margin-top: 50px;
-    padding: 30px;
+    padding: 17px;
     background-color: #fff; /* Semi-transparent background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
