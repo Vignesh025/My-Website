@@ -58,6 +58,7 @@ nav a:hover {
 }
 
 .main-content {
+    /*padding: 20px;*/
     text-align: center;
 }
 
@@ -132,6 +133,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    /*position: fixed;*/
     width: 100%;
     bottom: 0;
 }
